@@ -1,0 +1,41 @@
+{
+  "name": "@runalith/execution-evidence",
+  "version": "0.1.0",
+  "description": "Bounded execution result contracts and raw evidence integrity verification.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./contract": "./src/runtime/execution-contract.js",
+    "./verifier": "./src/runtime/execution-verifier.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "docs/"
+  ],
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "test": "node --test tests/*.mjs",
+    "check": "npm run check:manifest && node --check index.js && npm test",
+    "check:manifest": "node scripts/verify-source-manifest.mjs",
+    "pack:check": "npm pack --dry-run",
+    "test:packed-consumer": "node scripts/test-execution-evidence-packed-consumer.mjs"
+  },
+  "dependencies": {
+    "@runalith/cos-ap": "https://github.com/nplongx/runalith-cos-ap/archive/b6f2b51d549ba2f287ebd49d18ce29a212b2270a.tar.gz",
+    "@runalith/workflow-contracts": "https://github.com/nplongx/runalith-workflow-contracts/archive/0419b17985500e3d9b3aa18e07c0b2f6b010070b.tar.gz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nplongx/execution-evidence.git"
+  },
+  "bugs": { "url": "https://github.com/nplongx/execution-evidence/issues" },
+  "homepage": "https://github.com/nplongx/execution-evidence#readme",
+  "keywords": ["execution-evidence", "evidence-integrity", "sha256", "workflow", "verification"]
+}

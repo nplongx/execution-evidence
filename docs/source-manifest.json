@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "https://github.com/nplongx/runalith",
+  "sourceBranch": "integration/runalith-system-20261107",
+  "sourceBaseRevision": "29c24cfa2b6ead5704d26cf2746bc384f2938b80",
+  "sourceSelectedFilesWereClean": true,
+  "extractionEntryPoint": "src/runtime/execution-verifier.js",
+  "extractionScope": "Execution contracts and evidence verifier only; no process supervisor, persistence, provider retrieval or Workflow state",
+  "pinnedExternalDependencies": {
+    "@runalith/cos-ap": "b6f2b51d549ba2f287ebd49d18ce29a212b2270a",
+    "@runalith/workflow-contracts": "0419b17985500e3d9b3aa18e07c0b2f6b010070b"
+  },
+  "fileCount": 22,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "5d0ff589d4ed34b453b203b900817a48007c61b3c2a75efe195f2f25f370f92c",
+      "sizeBytes": 483
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5612d77237e802533d338bd0e9973095d4a81a4376f55e172a20024021cc0784",
+      "sizeBytes": 40
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "8e40b2f8e2719b37eff4183392b1d8b271013d1f3d2082270af4426f8124f3dc",
+      "sizeBytes": 329
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "README.md",
+      "sha256": "20085921c3ed5a326e5d900af731e0c74bf7394c85ea076ad4165949ea95866e",
+      "sizeBytes": 8400
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "1fd3bbca6ab75bfa600bc5bad11725197014a22513b12e35138c3b8b74be479c",
+      "sizeBytes": 2725
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "aa6e76bf7d18efcdbe187ac9cfbd0481304b9e52794b20892b8775f2ec9131ed",
+      "sizeBytes": 691
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "5530b7d7da373d360f9e34a6c600f2bcaf66b23f2cbac832db5106a5dac68b28",
+      "sizeBytes": 4609
+    },
+    {
+      "path": "docs/integration.md",
+      "sha256": "ddcdbb3ff738c4c662353c7d0f528c1cfd9da8b13fde81c27f0b4b04934be483",
+      "sizeBytes": 4095
+    },
+    {
+      "path": "docs/source-lineage.md",
+      "sha256": "8d3c01de1b1447edbb1b27773779f1d512ba99cbe1f0a7f067e1c2ca6663b179",
+      "sizeBytes": 2449
+    },
+    {
+      "path": "docs/terminology.md",
+      "sha256": "89cf0ed86e3d64291b0beb2248656262fd24c492f729568874327bf2732a3a42",
+      "sizeBytes": 1987
+    },
+    {
+      "path": "index.js",
+      "sha256": "4531056f935f5d56fdbd077951550a662ea13317e0ad549e8022cff00664e1b2",
+      "sizeBytes": 614
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "ef31a88b643329c06f268723d4e2a8e0624ed734cd11fb6354a8de2df050a4fe",
+      "sizeBytes": 1415
+    },
+    {
+      "path": "package.json",
+      "sha256": "c0a0db4cc1f12696b76dd9dc8ae0ea7489f409f5ccc11993ca639925b0ce89d1",
+      "sizeBytes": 1527
+    },
+    {
+      "path": "scripts/test-execution-evidence-packed-consumer.mjs",
+      "sha256": "b9be5d0a78f11a893fce021667ef1782d1f065094947dc741ad2598ec45a1048",
+      "sizeBytes": 4271
+    },
+    {
+      "path": "scripts/verify-source-manifest.mjs",
+      "sha256": "901220c51d72cad47f8f08b497f0f070dbea1a8a73fcc7926756ca3ca32b4608",
+      "sizeBytes": 2712
+    },
+    {
+      "path": "src/runtime/execution-contract.js",
+      "sha256": "0812a83f30cd09b220b30d2e6ecb02de516f8c65eeb06fa9916fe53784eff385",
+      "sizeBytes": 3740
+    },
+    {
+      "path": "src/runtime/execution-evidence.js",
+      "sha256": "f5aaccf6e48ddcf728ed67185331f1cdd712ed886c0f92642f0e060e014d64df",
+      "sizeBytes": 1815
+    },
+    {
+      "path": "src/runtime/execution-verifier.js",
+      "sha256": "36ca2cb57023d5e69290482e743589605d5ad46ad9f1506e4950c4728d48ddc7",
+      "sizeBytes": 20882
+    },
+    {
+      "path": "tests/test-execution-contract.mjs",
+      "sha256": "3264ab27dcf6778feb545b5fb1c0d0bc06b39ebb0e7ae6264120a2de16e36e60",
+      "sizeBytes": 9203
+    },
+    {
+      "path": "tests/test-execution-verifier-output-commit-binding.mjs",
+      "sha256": "6b520f0fefae5c31eeb7b4dfe0c68456a0ee9e6387eeb81cec4b15e7450be2f1",
+      "sizeBytes": 8005
+    },
+    {
+      "path": "tests/test-execution-verifier.mjs",
+      "sha256": "5965cc6265ddbfb6cfc6374c3bf816a0c491e240c613def39b62529a009e0166",
+      "sizeBytes": 16575
+    }
+  ]
+}
